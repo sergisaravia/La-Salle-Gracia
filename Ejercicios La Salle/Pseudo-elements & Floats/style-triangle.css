@@ -1,0 +1,20 @@
+.triangle {
+    position: relative;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid aqua;
+}
+.triangle::after {
+    content: ' ';
+    position: absolute;
+    top: 50px;
+    left: -100px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid aquamarine;
+}

@@ -1,0 +1,28 @@
+* {
+  font-size: 1.1em; 
+  font-family: 'Roboto';
+}
+h3 {
+  font-size: 1.3em;
+}
+header, footer {
+  background-color: rgb(84,120,193);
+  color: white;
+}
+section {
+  background-color: rgba(210,223,251,0.8);
+  color: rgb(73,105,169);
+}
+.primer:hover, article:hover {
+  color: white;
+  background-color: rgb(10,15,24);
+}
+span {
+  font-weight: bold;
+}
+a:active {
+  color: black;
+}
+.ultim {
+  font-style: italic;
+}
